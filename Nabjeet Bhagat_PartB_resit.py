@@ -1,7 +1,7 @@
 
 unique_booking_id = 20000
 
-class BookingSystem:
+class BookingSystem:                                                        
     def __init__(self, form_of_id, id_number, passenger_name):
         global unique_booking_id
         unique_booking_id += 1
@@ -85,3 +85,4 @@ if __name__ == "__main__":
         b.display_booking_info()
 
     bookings[0].booking_statistic(bookings)
+
